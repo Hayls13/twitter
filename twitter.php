@@ -12,7 +12,7 @@
                     document.getElementById("twitter").innerHTML = xhttp.responseText;
                 }
             };
-            xhttp.open("GET", "http://hrnodeapp.azurewebsites.net/server.js", true);
+            xhttp.open("GET", "http://hrnodeapp.azurewebsites.net/twittertest.js", true);
             xhttp.send();
         }
 
